@@ -12,7 +12,7 @@ Below sections details and introduces the user to #TASK User Inteface.
 ---
 ## Main Layout
 
-``#TASK`` contains three main section as shown below.
+``#TASK`` contains three main section as shown below. 
 
 ![Main Layout](Application_Layout_001.png)
 
