@@ -95,7 +95,7 @@ User can setup ``#TASK`` Applicaiton to use the following settings. Note: Any ch
 
 ### Plugins Manager
 
-![#TASK Settings](Settings_PlugIns.png)
+![#TASK Settings](Settings_PlugIns.png "Plugins Manager")
 
 | Plugin Name | Description |
 | --- | --- |
