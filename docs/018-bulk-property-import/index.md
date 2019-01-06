@@ -5,7 +5,7 @@ title: Bulk Property Import
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Bulk Properties Import](018_bulk_properties_import_001.png "Bulk Properties Import")
 
 This task can be used to import metadata present in an excel file against Custom and Configuration specific properties.
  - Import Properties from excel into Solidworks files referenced by its path and configuration name
@@ -17,32 +17,34 @@ This task works best with 'Bulk Property Export' task.
 
 A comparative view of a drawing processed using Activate Sheet task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Comparision](018_bulk_properties_import_002.png "Properties imported from *.xlsx / *.csv file into Solidworks Custom Property Manager")
 
+Sample output file can be downloaded from here. [[Properties.xlsx](properties.xlsx)]
 ## File Types
 
 | Supported | Description |
 | --- | --- |
-| SLDDRW | Supports SolidWorks Drawing Files only |
+| SLDPRT | Supports SolidWorks Part Files |
+| SLDASM | Supports SolidWorks Assembly Files |
+| SLDDRW | Supports SolidWorks Drawing Files |
 
 
 ## Download & Task Setup
 
 User can download this task from online library performing search using keywords.
+
+![Keyword Search](018_bulk_properties_import_003.png  "Search Online Library using Keywords")
+
 Select the task in Tasks list and setup arguments as required.
 
-| Argument | Details |
-| --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+| Argument      | Details                                                      |
+| ------------- | ------------------------------------------------------------ |
+| File Name     | Enter a name for the output file. User can choose to save as an xlsx or csv file. File extension is mandatory |
+| Path          | Enter a path to the folder where the output file has to be saved |
+| Options       | Specify to output `Generic Properties`, `Configuration Specific Properties`, `Empty Properties`. By default this task ignores adding custom properties if its value is empty. To change this behavior, it is mandatory to select `Empty Properties` from drop down|
 
 
-Click on "Run Job" to initiate.
-
-Once Job is completed, the target sheet is activated.
-
-Below is a video of demonstrating activate sheet task in usage
+## Demo Video
 
 <video width="720" height="480" controls>
   <source src="http://cloud.ic3d.com.au.s3.amazonaws.com/sharp_task/library/mdl_export_import_custom_prop/res/BULK_PROPERTY.mp4" type="video/mp4">

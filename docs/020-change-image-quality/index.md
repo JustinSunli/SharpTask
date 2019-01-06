@@ -5,7 +5,7 @@ title: Change Image Quality
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Change Image Quality](020_change_image_quality_001.png "Change Image Quality")
 
 This task can be used to change image quality of Solidworks part, assembly or drawing files. 
  - Modifies the setting available at Tools > Options > Document Properties > Image Quality
@@ -13,32 +13,34 @@ This task can be used to change image quality of Solidworks part, assembly or dr
  - Wireframe and High quality images can be set using HLR/HLV resolution
  - User can set the quality level using the Quality field specifying the percentage level
 
-A comparative view of a drawing processed using Activate Sheet task is shown below.
+A comparative view of an assembly processed through "Change Image Quality" task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Comparison](020_change_image_quality_002.png "Comparison between initial and final Image Quanity Settings of Solidworks Assembly file")
 
 ## File Types
 
 | Supported | Description |
 | --- | --- |
-| SLDDRW | Supports SolidWorks Drawing Files only |
+| SLDPRT | Supports SolidWorks Part Files |
+| SLDASM | Supports SolidWorks Assembly Files |
+| SLDDRW | Supports SolidWorks Drawing Files |
 
 
 ## Download & Task Setup
 
 User can download this task from online library performing search using keywords.
+
+![Keyword Search](020_change_image_quality_003.png  "Search Online Library using Keywords")
+
 Select the task in Tasks list and setup arguments as required.
 
 | Argument | Details |
 | --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+| Shaded and Draft Quality| When Enabled, the Quality setting slider for Shaded and Draft Quality is modified |
+| Wireframe Quality | When Enabled, the Quality setting slider for Wireframe and High Quality is modified |
+| Quality | A value between `1` for `Low Quality` And `100` for `High Quality`. User can either type a value by typing in or by using the control. |
 
-
-Click on "Run Job" to initiate.
-
-Once Job is completed, the target sheet is activated.
+## Demo Video
 
 Below is a video of demonstrating activate sheet task in usage
 

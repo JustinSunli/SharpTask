@@ -5,7 +5,7 @@ title: Configuration For Each Body
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Configuration for Each Body](022_configuration_for_each_body_001.png "Configuration for Each Body")
 
 Task can be used to create Configurations for each body within  a multibody. 
  - Can be used to generate custom properties specific to the geometry of the body.
@@ -14,9 +14,9 @@ Task can be used to create Configurations for each body within  a multibody.
  - Task works only with Solidworks Parts. [*.SLDPRT]
 
 
-A comparative view of a drawing processed using Activate Sheet task is shown below.
+A comparative view of a Multibody Part processed using `Configuration for Each Body` task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Comparision](022_configuration_for_each_body_002.png "Comparision between initial and final state of Solidworks Drawing")
 
 ## File Types
 
@@ -28,20 +28,12 @@ A comparative view of a drawing processed using Activate Sheet task is shown bel
 ## Download & Task Setup
 
 User can download this task from online library performing search using keywords.
-Select the task in Tasks list and setup arguments as required.
 
-| Argument | Details |
-| --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+![Keyword Search](022_configuration_for_each_body_003.png "Search Online Library using Keywords")
 
+This task does not contain any argument.
 
-Click on "Run Job" to initiate.
-
-Once Job is completed, the target sheet is activated.
-
-Below is a video of demonstrating activate sheet task in usage
+## Demo Video
 
 <video width="720" height="480" controls>
   <source src="002_ActivateSheet.swf" type="video/mp4">
