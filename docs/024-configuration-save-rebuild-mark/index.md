@@ -35,7 +35,7 @@ Select the task in Tasks list and setup arguments as required.
 | --- | --- |
 | Rebuild / Save Mark Options | User can select to either Add or Remove the mark from target Solidworks Part or Assembly file. |
 | Add Rebuild / Save Mark | When Selected to Add this mark, file processed through #TASK using this option will have a `Diskette Icon` against the target configuration. ![Add Rebuild/Save Mark](024_configuration_save_rebuild_mark_003_add.png) |
-| Remove Rebuild / Save Mark | When selected to Remove this mark, file processed through #TASK using this option will have a `Green Tick` against the target configuration.![Remove Rebuild/Save Mark](024_configuration_save_rebuild_mark_003_remove.png) |
+| Remove Rebuild / Save Mark | When selected to Remove this mark, file processed through #TASK using this option will have a `Green Tick` against the target configuration.![Remove Rebuild/Save Mark](024_configuration_save_rebuild_mark_003_Remove.png) |
 
 
 
