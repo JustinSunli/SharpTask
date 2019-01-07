@@ -15,7 +15,7 @@ This task helps user to process Part or Assembly files containing configurations
  - User can specify a Output File Name by either typing in the name as text or by using placeholders
  - Input file is not modified, however it is recommended to use `Open Read Only` setting in #TASK
 
-A comparative view of a drawing processed using Activate Sheet task is shown below.
+A comparative view of a part file processed using `Configuration Splitter` task is shown below.
 
 ![Comparison](025_configuration_splitter_002.png "Comparison between initial and final Solidworks Files output using #TASK")
 

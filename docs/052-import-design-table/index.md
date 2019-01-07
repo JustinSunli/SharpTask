@@ -9,7 +9,7 @@ title: Import Design Table
 
 The task is used to import design table into Solidworks Part or Assembly. 
  - The file(s) against which it is executed should have a Design Table Feature existing in the Configurations Tab 
- - The task works best with ""Export Design Table""
+ - The task works best with `Export Design Table`
  - Excel can show additional popup messages which require user input during process. Pop up could be disabled using the method from this article   [Link to Microsoft]("https://support.microsoft.com/en-au/kb/948615" )
  - Task can works with Solidworks Part and Assembly files
 
