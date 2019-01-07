@@ -1,18 +1,19 @@
 ---
 layout: page
 title: Configuration Save / Rebuild Mark
+author: Vineet Reddy
 ---
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Configuration Save / Rebuild Mark](024_configuration_save_rebuild_mark_001.png "Configuration Save / Rebuild Mark")
 
-Adds/Removes Save/Rebuild Mark for active configuration. Removing Save/Rebuild Mark allows to increase the performance.  Task works with part and assembly documents [*.SLDPRT]  [*.SLDASM]
+Adds/Removes Save/Rebuild Mark for active configuration. Removing Save/Rebuild Mark allows to increase the performance.  Task works with part and assembly documents `*.SLDPRT, *.SLDASM`
 
 
 A comparative view of a drawing processed using Activate Sheet task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Comparison](024_configuration_save_rebuild_mark_002.png "Comparison between initial and final state in Configuration Manager")
 
 ## File Types
 
@@ -25,20 +26,20 @@ A comparative view of a drawing processed using Activate Sheet task is shown bel
 ## Download & Task Setup
 
 User can download this task from online library performing search using keywords.
+
+![Keyword Search](024_configuration_save_rebuild_mark_003.png "Search Online Library using Keywords")
+
 Select the task in Tasks list and setup arguments as required.
 
 | Argument | Details |
 | --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+| Rebuild / Save Mark Options | User can select to either Add or Remove the mark from target Solidworks Part or Assembly file. |
+| Add Rebuild / Save Mark | When Selected to Add this mark, file processed through #TASK using this option will have a `Diskette Icon` against the target configuration. ![Add Rebuild/Save Mark](024_configuration_save_rebuild_mark_003_add.png) |
+| Remove Rebuild / Save Mark | When selected to Remove this mark, file processed through #TASK using this option will have a `Green Tick` against the target configuration.![Remove Rebuild/Save Mark](024_configuration_save_rebuild_mark_003_remove.png) |
 
 
-Click on "Run Job" to initiate.
 
-Once Job is completed, the target sheet is activated.
-
-Below is a video of demonstrating activate sheet task in usage
+## Demo Video
 
 <video width="720" height="480" controls>
   <source src="002_ActivateSheet.swf" type="video/mp4">
@@ -48,6 +49,4 @@ Below is a video of demonstrating activate sheet task in usage
 ## Download Sample Files
 
 Sample files can be downloaded from 
-[Sample Model in Solidworks 2017](../000-model/SolidWorks_2017_RoboticArm.zip)
-
-[Click to view the model at GrabCad](https://grabcad.com/library/5-dof-robot-1)
+[Sample Model in Solidworks 2017](Component.sldprt)
