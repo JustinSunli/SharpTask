@@ -1,46 +1,46 @@
 ---
 layout: page
 title: Cut List Report
+author: Vineet Reddy
 ---
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Cut List Report](031_cutlist_report_001.png "Cut List Report")
 
 This macro processes the Cutlist table present in each Solidworks part file and saves it to a single output report as csv file (comma separated value). 
- - Default report name is set to ""cutlist_report.csv"". It may contain text or placeholders
+ - Default report name is set to "cutlist_report.csv". It may contain text or placeholders
  - User can directly enter the path to destination folder or use the browse control to choose one
- - It is recommended to enable ""Open Read Only"" setting
+ - It is recommended to enable "Open Read Only" setting
 
 
 A comparative view of a drawing processed using Activate Sheet task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Report Output](031_cutlist_report_002.png "Output Report for Cut List using Solidworks Multi Body Part")
 
 ## File Types
 
 | Supported | Description |
 | --- | --- |
-| SLDDRW | Supports SolidWorks Drawing Files only |
+| SLDPRT | Supports SolidWorks Part Files only |
 
 
 ## Download & Task Setup
 
 User can download this task from online library performing search using keywords.
+
+![Keyword Search](031_cutlist_report_003.png "Search Online Library using Keywords")
+
 Select the task in Tasks list and setup arguments as required.
 
 | Argument | Details |
 | --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+| Report Name | Enter name of Sheet which needs to be activated. Alternatively, placeholders can be used |
+| Destination Folder | Path to Folder where report has to be saved to               |
 
 
-Click on "Run Job" to initiate.
 
-Once Job is completed, the target sheet is activated.
-
-Below is a video of demonstrating activate sheet task in usage
+## Demo Video
 
 <video width="720" height="480" controls>
   <source src="002_ActivateSheet.swf" type="video/mp4">
@@ -50,6 +50,5 @@ Below is a video of demonstrating activate sheet task in usage
 ## Download Sample Files
 
 Sample files can be downloaded from 
-[Sample Model in Solidworks 2017](../000-model/SolidWorks_2017_RoboticArm.zip)
+[Sample Model in Solidworks 2018](031-cut-list-report.zip)
 
-[Click to view the model at GrabCad](https://grabcad.com/library/5-dof-robot-1)

@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Copy Drawing with New References
+author: Vineet Reddy
 ---
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Copy Drawing with New Reference](028_copy_drawing_with_new_ref_001.png "Copy Drawing with New Reference")
 
 This task allows user to create a new drawing file per Item present in the Items Scope
  - User has the Option to create drawings for each Item in Items Scope by specifying a drawing template using a Solidworks Drawings file
@@ -16,7 +17,7 @@ This task allows user to create a new drawing file per Item present in the Items
 
 A comparative view of a drawing processed using Activate Sheet task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Comparison](028_copy_drawing_with_new_ref_002.png "New Drawing files created for each")
 
 ## File Types
 
@@ -32,25 +33,19 @@ Select the task in Tasks list and setup arguments as required.
 
 | Argument | Details |
 | --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+| Name | Enter a name for Output file. User can choose a placeholder by clicking on `#` to access placeholder menu |
+| Template           | Full path to SolidWorks Drawing file that will be considered as Template for SolidWorks Model file |
+| Configuration Name | User can choose a specific configuration Name by specifying in this field. |
 
-
-Click on "Run Job" to initiate.
-
-Once Job is completed, the target sheet is activated.
-
-Below is a video of demonstrating activate sheet task in usage
+## Demo Video
 
 <video width="720" height="480" controls>
-  <source src="002_ActivateSheet.swf" type="video/mp4">
+  <source src="http://cloud.ic3d.com.au.s3.amazonaws.com/sharp_task/library/mdl_copy_and_replace_reference/res/COPY_DRAWING_TO_REFERENCES.mp4" type="video/mp4">
 </video>
+
 
 
 ## Download Sample Files
 
 Sample files can be downloaded from 
-[Sample Model in Solidworks 2017](../000-model/SolidWorks_2017_RoboticArm.zip)
-
-[Click to view the model at GrabCad](https://grabcad.com/library/5-dof-robot-1)
+[Sample Model in Solidworks 2017](028_SteelModel.zip)
