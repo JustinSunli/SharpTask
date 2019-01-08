@@ -59,7 +59,7 @@ Select the task in Tasks list and setup arguments as required.
 ## Demo Video
 
 <video width="720" height="480" controls>
-  <source src="002_ActivateSheet.swf" type="video/mp4">
+  <source src="http://cloud.ic3d.com.au.s3.amazonaws.com/sharp_task/library/prt_copy_material_prps/res/PRO_COPY_MAT_PROP.mp4" type="video/mp4">
 </video>
 
 
