@@ -65,5 +65,5 @@ Select the task in Tasks list and setup arguments as required.
 
 ## Download Sample Files
 
-Sample files can be downloaded from 
-[Sample Model in Solidworks 2018](ICMember.sldprt)
+Sample file for Solidworks 2018 can be downloade from  
+[SolidWorks 2018 File](ICMember.sldprt)
