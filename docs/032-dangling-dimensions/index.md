@@ -28,7 +28,9 @@ A comparative view of a drawing processed using `Dangling Dimensions` task is sh
 
 User can download this task from online library performing search using keywords.
 
-![Keyword Search](032_Dangling_Dimensions_003.png "Search Online Library using Keywords")Select the task in Tasks list and setup arguments as required.
+![Keyword Search](032_Dangling_Dimensions_003.png "Search Online Library using Keywords")
+
+Select the task in Tasks list and setup arguments as required.
 
 | Argument | Details |
 | --- | --- |
