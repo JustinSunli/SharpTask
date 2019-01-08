@@ -43,7 +43,7 @@ Select the task in Tasks list and setup arguments as required.
 ## Demo Video
 
 <video width="720" height="480" controls>
-  <source src="002_ActivateSheet.swf" type="video/mp4">
+  <source src="Sample.swf" type="video/mp4">
 </video>
 
 
