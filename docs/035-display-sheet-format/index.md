@@ -10,6 +10,9 @@ author: Vineet Reddy
 
 This task allows to hide/show sheet template on active drawing sheet. The visibility could be changed for all sheets on drawing by selecting an option in `#TASK` to run for each sheet. Optionally could be nominated specific sheets (by name, by number or by template) for which this task should work. If conditions were specified in several tables (`Which Sheets` and `Which Formats`) then the task will work only if conditions from both tables were met.
 
+This task makes changes to Sheet Properties dialog where the checkbox for `Display Sheet Format` exists
+
+![Sheet Properties](035_display_sheet_format_004.png "CheckBox for Display Sheet Format")
 
 A comparative view of a drawing processed using `Display Sheet Format` task is shown below.
 

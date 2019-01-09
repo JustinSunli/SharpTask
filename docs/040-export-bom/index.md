@@ -5,7 +5,7 @@ title: Export BOM
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Export BOM](040_export_bom_001.png "Export BOM")
 
 The task can be used to export Bill of Materials from Solidworks Drawing or Assembly files.
  - To export data, BOM table should exist
@@ -16,7 +16,7 @@ The task can be used to export Bill of Materials from Solidworks Drawing or Asse
 
 A comparative view of a drawing processed using Activate Sheet task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Bill of Material Export](040_export_bom_002.png "Bill of Material exported from Solidworks Drawing to Excel File")
 
 ## File Types
 
@@ -29,20 +29,22 @@ A comparative view of a drawing processed using Activate Sheet task is shown bel
 ## Download & Task Setup
 
 User can download this task from online library performing search using keywords.
+
+![Keyword Search](040_export_bom_003.png "Search Online Library using Keywords")
+
 Select the task in Tasks list and setup arguments as required.
 
 | Argument | Details |
 | --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+| Output File Name | Enter a name using text or setup dynamically using placeholder by accessing `#` |
+| Destination Folder | Set a Folder path for the output file. If empty then output file will be created in same directory as Solidworks Drawing file |
+| Additional Columns | User can select to add specific columns along with the the BOM Layout present in Solidworks Drawing file |
+| Image | Image can be extracted from each model and saved against the row representing the selected Item Number in excel file |
+| Hyperlink | Hyperlinks can be formed and saved against the row representing the selected Item Number in excel file |
 
 
-Click on "Run Job" to initiate.
 
-Once Job is completed, the target sheet is activated.
-
-Below is a video of demonstrating activate sheet task in usage
+## Demo Video
 
 <video width="720" height="480" controls>
   <source src="002_ActivateSheet.swf" type="video/mp4">

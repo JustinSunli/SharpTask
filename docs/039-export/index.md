@@ -16,7 +16,7 @@ Task can be used to export Solidworks models with a specific output file naming 
  - Also provides to save the model as pictures in JPG and TIF formats.
 
 
-A comparative view of a drawing processed using Activate Sheet task is shown below.
+A comparative view of a drawing processed using `Export` task is shown below.
 
 ![Comparison](039_export_002.png "Comparison between initial Solidworks Native Models and exported files in .igs format")
 
