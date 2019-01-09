@@ -14,7 +14,7 @@ The task can be used to export Bill of Materials from Solidworks Drawing or Asse
     Hyperlink: Hyperlink can be inserted to link each Item in the BOM table to its Part. User can choose to display specific text instead of  path to file
 
 
-A comparative view of a drawing processed using Activate Sheet task is shown below.
+A comparative view of a drawing processed using `Export BOM` task is shown below.
 
 ![Bill of Material Export](040_export_bom_002.png "Bill of Material exported from Solidworks Drawing to Excel File")
 
@@ -44,6 +44,8 @@ Select the task in Tasks list and setup arguments as required.
 
 
 
+Sample BOM Exported from the attached Model is available for [download here](040-export-bom.zip)
+
 ## Demo Video
 
 <video width="720" height="480" controls>
@@ -53,7 +55,6 @@ Select the task in Tasks list and setup arguments as required.
 
 ## Download Sample Files
 
-Sample files can be downloaded from 
-[Sample Model in Solidworks 2017](../000-model/SolidWorks_2017_RoboticArm.zip)
+Sample files can be downloaded from [Solidworks 2018 Files](040-export-bom.zip)
 
 [Click to view the model at GrabCad](https://grabcad.com/library/5-dof-robot-1)
