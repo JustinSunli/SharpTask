@@ -1,0 +1,8 @@
+Drawing Name, Sheet Name, Sheet Scale, Model Name, View Name, view Scale, Is Flat Pattern View, Has Sheet Metal Feature, Using Sheet Scale
+ICMember-1,A3_SHT1,1:10 (0.1),ICMember-1.sldprt,Drawing View1,1:10 (0.1),False,False,True
+
+
+ICMember-2,Sheet1,1:10 (0.1),ICMember-2.sldprt,Drawing View1,1:10 (0.1),False,False,True
+
+
+ICMember-3,Sheet1,1:10 (0.1),ICMember-3.sldprt,Drawing View1,1:10 (0.1),False,False,True
