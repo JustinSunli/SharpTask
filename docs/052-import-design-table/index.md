@@ -1,11 +1,12 @@
 ---
 layout: page
 title: Import Design Table
+author: Vineet Reddy
 ---
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Activate Sheet](052_import_design_table_001.png "Activate Sheet")
 
 The task is used to import design table into Solidworks Part or Assembly. 
  - The file(s) against which it is executed should have a Design Table Feature existing in the Configurations Tab 
@@ -13,9 +14,9 @@ The task is used to import design table into Solidworks Part or Assembly.
  - Excel can show additional popup messages which require user input during process. Pop up could be disabled using the method from this article   [Link to Microsoft]("https://support.microsoft.com/en-au/kb/948615" )
  - Task can works with Solidworks Part and Assembly files
 
-A comparative view of a drawing processed using Activate Sheet task is shown below.
+A comparative view of a drawing processed using `Export Design Table` task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Comparison](052_import_design_table_002.png "Changes in Solidworks Part through Design Table Import")
 
 ## File Types
 
@@ -32,16 +33,12 @@ Select the task in Tasks list and setup arguments as required.
 
 | Argument | Details |
 | --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+| Find Where | Specify the path to the folder where Design Table Excel File is placed |
+| Name | Specify File name with extension to look for within folder path specified in`Find Where`   argument. User can type in file name as text or construct it dynamically using place holders by accessing menu using `#` button in this field |
 
 
-Click on "Run Job" to initiate.
 
-Once Job is completed, the target sheet is activated.
-
-Below is a video of demonstrating activate sheet task in usage
+## Demo Video
 
 <video width="720" height="480" controls>
   <source src="002_ActivateSheet.swf" type="video/mp4">
@@ -50,7 +47,4 @@ Below is a video of demonstrating activate sheet task in usage
 
 ## Download Sample Files
 
-Sample files can be downloaded from 
-[Sample Model in Solidworks 2017](../000-model/SolidWorks_2017_RoboticArm.zip)
-
-[Click to view the model at GrabCad](https://grabcad.com/library/5-dof-robot-1)
+Sample files can be downloaded from [Solidworks 2018 files](052-import-design-table.zip)
