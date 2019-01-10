@@ -68,9 +68,8 @@ Scenario: Add Custom Properties into Solidworks Files in batch mode
 
 Below is a video of demonstrating activate sheet task in usage
 
-<video width="720" height="480" controls>
-  <source src="002_ActivateSheet.swf" type="video/mp4">
-</video>
+[![Manage Custom Properties](http://img.youtube.com/vi/ax5plwLITbw/0.jpg)](http://www.youtube.com/watch?v=ax5plwLITbw)
+
 
 
 ## Download Sample Files
