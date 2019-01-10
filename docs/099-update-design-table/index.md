@@ -1,45 +1,45 @@
 ---
 layout: page
 title: Update Design Table
+author: Vineet Reddy
 ---
 
 ## Task Description
 
-![Activate Sheet](002_ActivateSheet_001.png "Activate Sheet")
+![Update Design Table](099_update_design_table_001.png "Update Design Table")
 
 This task can be used to update the Design Table present within Solidworks Part or Assembly file.
  - The task only works when Design Table Feature is present in Configurations Tab.
  - User can choose to edit data in Excel file and then update Solidworks Model by enabling the Refresh Excel Data check box.
 
 
-A comparative view of a drawing processed using Activate Sheet task is shown below.
+A comparative view of a drawing processed using `Update Design Table` task is shown below.
 
-![Comparision](002_ActivateSheet_002.png "Comparision between initial and final state of Solidworks Drawing")
+![Comparison](099_update_design_table_002.png "Update Design Table present in Solidworks Parts or Assemblies using #TASK")
 
 ## File Types
 
 | Supported | Description |
 | --- | --- |
 | SLDPRT | Supports SolidWorks Part Files |
+| SLDASM | Supports SolidWorks Assembly Files |
 
 
 ## Download & Task Setup
 
 User can download this task from online library performing search using keywords.
+
+![Keyword Search](099_update_design_table_003.png "Search Online Library using Keywords")
+
 Select the task in Tasks list and setup arguments as required.
 
 | Argument | Details |
 | --- | --- |
-| Sheet Name / Number| Enter name of Sheet which needs to be activated. Alternatively, a sheet number can be specified |
-| Options | User can select one or more options from pick list |
-| Zoom to Fit | Sets the model to fit within SolidWorks layout. Similar to using ```Shortcut Key "F"``` within SolidWorks |
+| Refresh Excel Data | With the checkbox enabled, Design Tables present as external files and be used for editing and the same can be updated |
 
 
-Click on "Run Job" to initiate.
 
-Once Job is completed, the target sheet is activated.
-
-Below is a video of demonstrating activate sheet task in usage
+## Demo Video
 
 <video width="720" height="480" controls>
   <source src="002_ActivateSheet.swf" type="video/mp4">
@@ -48,7 +48,5 @@ Below is a video of demonstrating activate sheet task in usage
 
 ## Download Sample Files
 
-Sample files can be downloaded from 
-[Sample Model in Solidworks 2017](../000-model/SolidWorks_2017_RoboticArm.zip)
+Sample files can be downloaded from [Solidworks 2018 files](099-update-design-table.zip)
 
-[Click to view the model at GrabCad](https://grabcad.com/library/5-dof-robot-1)
